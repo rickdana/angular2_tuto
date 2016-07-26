@@ -1,0 +1,11 @@
+<div class="mdl-grid">
+    <div *ngFor="let mediaItem of mediaItems" class="mdl-cell mdl-cell--3-col media-item">
+        <media-item
+                [mediaItemToWatch]="mediaItem"
+                (deleted)="onMediaItemDeleted($event)"
+                [ngClass]="{'medium-movies': mediaItem.medium ==='Movies',
+                'medium-series':mediaItem.medium === 'Series'}"
+        ></media-item>
+    </div>
+
+</div>

@@ -1,0 +1,33 @@
+media-tracker-app{
+    color: white;
+}
+
+.media-item{
+    border: 2px solid;
+    padding: 1%;
+}
+.tools {
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.favorite {
+    width: 28px;
+    height: 28px;
+    fill: #bdc2c5;
+}
+
+.medium-series {
+    border-color: #45bf94;
+}
+.medium-series > h3 {
+    color: #45bf94;
+}
+
+.medium-movies {
+    border-color: #53ace4;
+}
+.medium-movies > h3 {
+    color: #53ace4;
+}
